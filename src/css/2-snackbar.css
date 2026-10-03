@@ -1,0 +1,20 @@
+.form {
+  display: flex;
+  flex-direction: column;
+  gap: 16px;
+  max-width: 320px;
+}
+
+fieldset {
+  border: 1px solid #ccc;
+  padding: 8px 12px;
+}
+
+fieldset label {
+  display: block;
+  margin-top: 6px;
+}
+
+button[type="submit"] {
+  cursor: pointer;
+}
